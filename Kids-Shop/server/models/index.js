@@ -1,0 +1,18 @@
+module.exports = {
+    Admin: require('./admin'),
+    User: require('./user'),
+    Banner: require('./banner'),
+    Blog: require('./blog'),
+    BlogComment: require('./blogComment'),
+    Comment: require('./comment'),
+    FAQs: require('./faqs'),
+    Feedback: require('./feedback'),
+    Order: require('./order'),
+    Payment: require('./payment'),
+    Product: require('./product'),
+    Tag: require('./tag'),
+    TagBlog: require('./tagBlog'),
+    UserFAQs: require('./userFAQs'),
+    UserOrder: require('./userOrder'),
+    Category: require('./category'),
+}
